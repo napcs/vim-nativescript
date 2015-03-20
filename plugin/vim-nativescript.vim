@@ -10,8 +10,10 @@ function! TNS_android_emulator()
   execute "!".cmd
 endfunction
 
-command TNSios   call TNS_ios_emulator()
-command TNSandroid   call TNS_android_emulator()
+" Commands
+command TNSiosEmulator   call TNS_ios_emulator()
+command TNSAndroidEmulator   call TNS_android_emulator()
 
-nmap <leader>tni :TNSios<CR>
-nmap <leader>tna :TNSandroid<CR>
+" Mappings
+nmap <leader>tnie :TNSiosEmulator<CR>
+nmap <leader>tnae :TNSAndroidEmulator<CR>

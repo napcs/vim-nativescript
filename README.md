@@ -16,8 +16,8 @@ bundle 'napcs/vim-nativescript'
 
 Defines commands to launch emulators from within Vim.
 
-* `:TNSios` (or `<leader>tnsi`) launches iPhone simulator
-* `:TNSandroid` (or `<leader>tnsand`) launches default Android emulator
+* `:TNSiosEmulator` (or `<leader>tnie`) launches iPhone simulator
+* `:TNSAndroidEmulator` (or `<leader>tnae`) launches default Android emulator
 
 ## Roadmap
 
